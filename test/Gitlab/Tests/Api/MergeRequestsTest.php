@@ -49,7 +49,7 @@ class MergeRequestsTest extends ApiTestCase
         $api = $this->getApiMock(array('getList'));
         $api->expects($this->once())
             ->method('getList')
-            ->with(1, MergeRequests::STATE_ALL, 2, 5,  'title', 'desc')
+            ->with(1, MergeRequests::STATE_ALL, 2, 5, 'title', 'desc')
             ->will($this->returnValue($expectedArray))
         ;
 

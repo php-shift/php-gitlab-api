@@ -553,4 +553,4 @@ class RepositoriesTest extends ApiTestCase
     {
         return 'Gitlab\Api\Repositories';
     }
-} 
+}
